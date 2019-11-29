@@ -370,4 +370,10 @@ public class JavaFxUI {
         }
     }
 
+    /**
+     * @return The Scene that the JavaFX UI is running in
+     */
+    public Scene getScene() {
+        return scene;
+    }
 }
